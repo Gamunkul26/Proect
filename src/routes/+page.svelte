@@ -1,31 +1,37 @@
 <svelte:head>
-<title>Глеб Меньшенин</title>
+    <title>Глеб Меньшенин</title>
 </svelte:head>
 
-<div class='container'>
-    <div class='info'>
-        <div class='animate-background'>
-            <div class='container info-container'>
-                <div class='info-text'>
+<div class="container">
+    <div class="info">
+        <div class="animate-background">
+            <div class="container info-container">
+                <div class="info-text">
                     <h1>
-                        <p class='animate-text-1'>Lorem ipsum dolor sit,</p>
-                        <p class='text-2'>Lorem ipsum dolor sit amet.</p>
+                        <p class="animate-text-1">Персональный сайт,</p>
+                        <p class="text-2">Глеба Меньшенина</p>
                     </h1>
                 </div>
-<h2 class='subtitle'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto aut, cupiditate dolores
-                    ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
+                <h2 class="subtitle">
+                    Привет! Меня зовут Глеб Меньшенин, и я рад приветствовать
+                    вас на своей странице. Я живу в Челябинске, Россия, и я
+                    старшеклассник в местной школе.
                 </h2>
-                <div style='color:black' class='scroll-button animate-scroll' tabindex='0'>
-                    <a href='/about'>Click Here</a>
-                    <div class='arrow'>→</div>
+                <div
+                    style="color:black"
+                    class="scroll-button animate-scroll"
+                    tabindex="0"
+                >
+                    <a href="/about">Узнать обо мне</a>
+                    <div class="arrow">→</div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class='background-div'></div>
+<div class="background-div" />
+
 <style>
     .info {
         text-align: center;
@@ -43,7 +49,7 @@
         max-width: 1400px;
         margin: 190px 0 0 2.5rem;
     }
-.info h1 {
+    .info h1 {
         font-size: 4rem;
         margin: 0;
     }
@@ -60,9 +66,9 @@
     .info h2 {
         max-width: 65ch;
         font-weight: 200;
-        margin-top: 0.50rem;
+        margin-top: 0.5rem;
     }
-.background-div {
+    .background-div {
         background-color: #ecebe8;
         width: 100%;
         height: 56vh;
@@ -78,6 +84,6 @@
         cursor: pointer;
     }
     .scroll-button .arrow {
-        margin-left: 0.50rem;
+        margin-left: 0.5rem;
     }
 </style>
